@@ -6,7 +6,6 @@ import 'aos/dist/aos.css'
 import { FaCss3, FaHtml5 } from "react-icons/fa6";
 import { IoLogoJavascript } from "react-icons/io5";
 import { RiReactjsFill } from "react-icons/ri";
-import background from '../Back/about.mp4'
 import VanillaTilt from 'vanilla-tilt'
 
 const ContMod = styled.main`
@@ -144,7 +143,7 @@ const About = () => {
   return (
     <ContMod data-aos="fade">
       <VideoMod autoPlay muted loop>
-        <source src={background} type='video/mp4'/>
+        <source src="/Back/about.mp4" type='video/mp4'/>
       </VideoMod>
       <CabecalhoEstilizado/>
         <SecMod id='card'>

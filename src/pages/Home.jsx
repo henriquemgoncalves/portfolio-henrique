@@ -3,7 +3,6 @@ import AOS from 'aos'
 import 'aos/dist/aos.css'
 import Cabecalho from '../components/Cabecalho'
 import { useEffect } from 'react'
-import background from '../Back/home.mp4'
 import Frase from '../components/FraseInicial'
 
 const ContMod = styled.main`
@@ -33,7 +32,7 @@ const Home = () => {
   return (
     <ContMod data-aos="fade">
       <VideoMod autoPlay muted loop>
-        <source src={background} type='video/mp4'/>
+        <source src='/Back/home.mp4' type='video/mp4'/>
       </VideoMod>
       <Cabecalho/>
       <Frase/>  

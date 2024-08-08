@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react'
 import Cabecalho from '../components/Cabecalho'
-import background from '../Back/contact.mp4'
 import styled from 'styled-components'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
@@ -149,7 +148,7 @@ const Contact = () => {
     <ContMod data-aos="fade">
       <CabecalhoEst/>
       <VideoMod autoPlay muted loop>
-        <source src={background} type='video/mp4'/>
+        <source src='/Back/contact.mp4' type='video/mp4'/>
       </VideoMod>
       <ElemMod>
         <div className="up" data-aos="fade-left" data-aos-duration="3000">
