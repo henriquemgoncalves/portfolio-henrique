@@ -131,7 +131,7 @@ const CabecalhoEst = styled(Cabecalho)`
 `
 
 const Contact = () => {
-  const titulo = ("Vamos contruir algo incrível juntos!");
+  const titulo = ("Vamos construir algo incrível juntos!");
 
   useEffect(() => {
       AOS.init({
