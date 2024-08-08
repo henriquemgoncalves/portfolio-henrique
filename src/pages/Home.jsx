@@ -20,6 +20,7 @@ const VideoMod = styled.video`
     height: 100%;
     object-fit: cover;
     z-index: -1;
+    pointer-events: none;
 `
 
 const Home = () => {
@@ -31,7 +32,7 @@ const Home = () => {
 
   return (
     <ContMod data-aos="fade">
-      <VideoMod autoPlay muted loop>
+      <VideoMod autoPlay muted loop playsInline>
         <source src='/Back/home.mp4' type='video/mp4'/>
       </VideoMod>
       <Cabecalho/>

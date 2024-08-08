@@ -14,6 +14,7 @@ const VideoMod = styled.video`
     height: 100%;
     object-fit: cover;
     z-index: -1;
+    pointer-events: none;
 `
 
 const ContMod = styled.main`
@@ -147,7 +148,7 @@ const Contact = () => {
   return (
     <ContMod data-aos="fade">
       <CabecalhoEst/>
-      <VideoMod autoPlay muted loop>
+      <VideoMod autoPlay muted loop playsInline>
         <source src='/Back/contact.mp4' type='video/mp4'/>
       </VideoMod>
       <ElemMod>
